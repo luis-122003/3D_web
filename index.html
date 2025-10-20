@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- Import the component -->
+    <!-- Importar el CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Importar el componente -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </head>
 
 <body>
-    <!-- Use it like any other HTML element -->
+    <!-- Usar el componente -->
     <model-viewer
-        style="width: 100%; height: 100vh;"
         alt="hollow knight"
         auto-rotate
         src="./src/models/hollow_knight_dream_world_down_sized.glb" 
         skybox-image="./src/environments/fondo.hdr"
         shadow-intensity="1" 
         camera-controls
-        touch-action="pan-y"></model-viewer>
+        touch-action="pan-y">
+    </model-viewer>
 </body>
 
 </html>
