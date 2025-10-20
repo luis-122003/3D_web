@@ -1,0 +1,15 @@
+/* quitar la margen: reset básico */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* opcional: asegurar que ningún elemento tenga margen/padding por defecto */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
